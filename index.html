@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tirate una Propina</title>
+</head>
+<body>
+    <div class="container"> <!--el contenedor general del "tip" calculator-->
+    <header>
+        <h1 id="title" class="text-center">Tirate una propina</h1>
+    </header>
+    <script src="./tip.js"></script>
+    <form action="javascript:void(calc())"> <!--todo se engloba en esta etiqueta form,ya que es como un formulario lo que utilizamos para esta mini app-->
+        <input type="form-control" id="bill" type="text" placeholder="La Cuenta"> <!--el place holder para fijar y poner dentro el "number of people"-->
+        <br>
+        <br>
+        <input type="form-control" id="split" type="text" placeholder="Cant. de Personas"> <!--el place holder para fijar y poner dentro el "number of people"-->
+        <br>
+        <button class="btn btn-success btn-lg"> Calcular </button> <!--el button donde usamos para calcular la cantidad de personas p/repartir propina-->
+    </br>
+</br>
+<div class="results">    <!--en este contenedor establecemos lo que figurara en el  resultado(personas y $ a pagar)-->
+    <p><strong>Propina:&nbsp; <span id="tip"></span></strong></p>
+    <p><strong>Total:&nbsp; <span id="total"></span></strong></p>
+    <p><strong>Cada persona paga::&nbsp; <span id="splitTotal"></span></strong></p> <!--por si no sben la etiwueta strong te saca el texto en fuente "fuerte"-->
+    </div>
+</form>
+<br>
+</div>
+<footer>
+    © https://github.com/olimajs.
+</footer>
+</body>
+</html>
