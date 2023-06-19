@@ -11,7 +11,7 @@ SOLUCIÓN ANTI-PELEAS P/ CUANDO SALES A COMER O BEBER ENTRE AMIGOS. 😹🤝
 ANTI-FIGHTING SOLUTION F/ WHEN YOU GO OUT TO EAT OR DRINK AMONG FRIENDS. 😹🤝
 - Tip Calculator ES | Tip Calculator in (English). Made with Html, CSS and Javascript.
 
-- Note: this mini app is made with 15 percent tip in the (file.js).
+- Note: this mini app is made with 15 percent tip in the (file.js).(you could modified this to 10 percent or 18 wherever you want)
 
 
 
